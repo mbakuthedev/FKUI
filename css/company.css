@@ -1,0 +1,516 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+	Conpany
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_company {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_company h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/company/title_h1_company.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#main_companygreetinghonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_companygreetinghonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_company_greeting.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+#companygreeting_left {
+	width: 515px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+#companygreeting_right {
+	width: 155px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+
+
+
+#main_companymanagementhonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_company_management.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+/*  Јē @ o c   O   o  H1*/
+#main_companymanagementhonbun h1 {
+	font-family: "HGP    E", "MS PMincho", "serif"
+}
+
+/*  Јē @ o c   O {  */
+#main_companymanagementcontents {
+	font-size: 160%;
+	font-family: "HGP    E", "MS PMincho", "serif"
+}
+
+/*  Јē @ o c   O {   @ q    */
+#main_companymanagementcontentschild {
+	font-size: 120%
+	font-family: "HGP    E", "MS PMincho", "serif"
+}
+
+
+
+#main_companyabouthonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_companyabouthonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_company_about.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#about_table table {
+	width: 710px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+}
+
+#about_table tr {
+	background-color: #f1f1f1;
+	vertical-align: top;
+}
+
+#about_table th {
+	border-bottom: 1px #ddd solid;
+	padding: 5px 10px 5px 10px;
+}
+
+#about_table td {
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px #ddd solid;
+}
+
+.tr_normal {
+	background-color: #fff!important;	
+}
+
+
+
+#main_companyhistoryhonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+#main_companyhistoryhonbun_p2 {
+	width: 710px;
+	margin: 0px;
+	padding: 20px 50px 0px 50px;
+	text-align: left;
+	background-color: #ffffff;
+}
+
+
+#main_companyhistoryhonbun h2 , #main_companyhistoryhonbun_p2 h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_company_history.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#history_table table {
+	width: 710px;
+}
+
+#history_table th {
+	background-color: #f1f1f1;
+	vertical-align: top;
+	border-left: 3px #2366b2 solid;
+	padding: 5px 10px 5px 10px;
+	font-weight: normal;
+	text-align: left;
+}
+
+#history_table td {
+	vertical-align: top;
+	padding: 5px 10px 5px 5em;
+}
+
+.tr_normal {
+	background-color: #fff!important;	
+}
+
+
+#historyphoto_1950 {
+	width: 170px;
+	height: 170px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_1950.jpg);
+	background-repeat: no-repeat;
+	background-position: left 3.5em;
+	line-height: 1em;
+}
+
+#historyphoto_1955 {
+	width: 170px;
+	height: 170px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_1955.jpg);
+	background-repeat: no-repeat;
+	background-position: left 3.5em;
+	line-height: 1em;
+}
+
+#historyphoto_1961 {
+	width: 170px;
+	height: 300px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_1961.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2.5em;
+	line-height: 1em;
+}
+
+#historyphoto_kikai {
+	width: 170px;
+	height: 300px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_kikai.jpg);
+	background-repeat: no-repeat;
+	background-position: left 1.5em;
+	line-height: 1em;
+}
+
+#historyphoto_rocket {
+	width: 170px;
+	height: 200px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_rocket.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2.5em;
+	line-height: 1em;
+}
+
+#historyphoto_netusyori {
+	width: 170px;
+	height: 240px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_netusyori.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2.5em;
+	line-height: 1em;
+}
+
+#historyphoto_lgn {
+	width: 170px;
+	height: 170px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_lgn.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2.5em;
+	line-height: 1em;
+}
+
+#historyphoto_1978 {
+	width: 190px;
+	height: 250px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_1978.jpg);
+	background-repeat: no-repeat;
+	background-position: left 4.5em;
+	line-height: 1em;
+}
+
+#historyphoto_1998 {
+	width: 170px;
+	height: 250px;
+	margin: 0px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_1998.jpg);
+	background-repeat: no-repeat;
+	background-position: left 3em;
+	line-height: 1em;
+}
+
+#historyphoto_2009 {
+	width: 190px;
+	height: 170px;
+	margin: 5px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_2009.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2em;
+	line-height: 1em;
+}
+
+#historyphoto_2010 {
+	width: 190px;
+	height: 170px;
+	margin: 5px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_2010.jpg);
+	background-repeat: no-repeat;
+	background-position: left 2em;
+	line-height: 1em;
+}
+
+#historyphoto_2014 {
+	width: 190px;
+	height: 170px;
+	margin: 5px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_2014.jpg);
+	background-repeat: no-repeat;
+	background-position: left 3.5em;
+	line-height: 1em;
+}
+
+#historyphoto_2024 {
+	width: 190px;
+	height: 170px;
+	margin: 5px 0px 0px -4em;
+	pading: 0px;
+	color: #2366b2;
+	font-weight: bold;
+	text-align: left;
+	background-image: url(../img/company/photo_history_2024.jpg);
+	background-repeat: no-repeat;
+	background-position: left 3.5em;
+	line-height: 1em;
+}
+
+
+#main_companyacesshonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_companyaccesshonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_company_access.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+
+#access_table table {
+	margin: 0px 0px 0px 9px;
+	width: 100%;
+}
+
+#access_table th {
+	background-color: #f1f1f1;
+	vertical-align: top;
+	border-left: 3px #2366b2 solid;
+	padding: 5px 10px 5px 1em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#access_table td {
+	vertical-align: top;
+	padding: 5px 10px 5px 1em;
+	text-align: left;
+	border-bottom: 1px #eee dotted;
+}
+
+.tr_normal {
+	background-color: #fff!important;	
+	border-bottom: none!important;
+}
+
+
+#accessinfo_table table {
+	margin: 0px 0px 20px 0px;
+	width: 100%;
+}
+
+#accessinfo_table th {
+	background-color: #f1f1f1;
+	vertical-align: middle;
+	border-left: 3px #2366b2 solid;
+	padding: 5px 10px 5px 1em;
+	font-weight: bold;
+	text-align: left;
+}
+
+#accessinfo_table td {
+	vertical-align: middle;
+	padding: 0px 0px 0px 20px;
+	text-align: left;
+}
+
+#accessinfo_table ol{
+	margin: 0px 0px 0px 20px;
+	padding: 0px;
+}
+
+#accessinfo_table li{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* #fukui_e_map {
+	width: 685px;
+	height: 310px;
+	margin: 0px;
+	padding: 0px;	
+} */
+
+
+
+#main_environmenthonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_environmenthonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/company/title_h2_environment.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#environment_list {
+	margin: 0px;
+	padding: 0px;
+}
+
+#environment_list ol {
+	margin: 0px 2em 0px 2em;
+	padding: 0px;
+}
+
+#environment_list ul {
+	margin: 0px 0px 0px 1em;
+	padding: 0px;
+	list-style-type: disc;
+}
+
+#environment_list li {
+	margin: 0px 0px 0.5em 0px;
+	padding: 0px;
+}
+

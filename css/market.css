@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+	▼IN Market▼
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_market {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_market h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/market/title_h1_market.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+.market_imgwaku {
+	margin: 0px 0px 0px 2em;
+	padding: 0px;
+}
+
+
+
+#main_marketgreetinghonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_marketmarinehonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/market/title_h2_market_marine.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+
+#main_marketgenerationhonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_marketgenerationhonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/market/title_h2_market_generation.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#main_marketdevelopmenthonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_marketdevelopmenthonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/market/title_h2_market_development.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+/

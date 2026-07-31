@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+	sitemap
+--------------------------------------------------------------------------------------*/
+
+
+#sitemap_menu_waku {
+	width: 980px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#sitemap_menu_waku h2 {
+	width: 980px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	background-image: url(../img/sitemap/title_h2_sitemap.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#sitemap_menu_waku table {
+	margin: 0px;
+	padding: 0px;
+	font-size: 90%;
+}
+
+#sitemap_menu_waku td {
+	height: 170px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+
+#sitemap_menu_waku em {
+	display: none;
+}
+
+#top_menu_companybox {
+	height: 200px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/sitemap/topmenu_bac_company.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_marketbox {
+	height: 200px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/sitemap/topmenu_bac_market.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_productbox {
+	height: 200px; 
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/sitemap/topmenu_bac_product.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_makingbox {
+	height: 200px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/sitemap/topmenu_bac_making.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_recruitbox {
+	height: 2000px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../../english/img/sitemap/topmenu_bac_recruit.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_environmentbox {
+	height: 200px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../../english/img/sitemap/topmenu_bac_environment.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#top_menu_contactbox {
+	height: 200px;
+	margin: 0px 5px 0px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/sitemap/topmenu_bac_contact.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.top_menu_comebox {
+	width: 170px;
+	height: auto;
+	margin: 0px 0px 0px 60px;
+	padding: 10px 0px 0px 0px;
+	text-align: left;
+}
+
+
+#sitemap_menu_waku a:link {	color: #1674e0!important;	text-decoration: none;}
+#sitemap_menu_waku a:hover {	color: #1674e0!important;	text-decoration: underline!important;}
+#sitemap_menu_waku a:visited {	color: #1674e0!important;	text-decoration: none!important;}

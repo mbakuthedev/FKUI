@@ -1,0 +1,714 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*-------------------------------------------
+	
+-------------------------------------------*/
+html {
+	height: 100%;
+	width: 100%;
+	overflow-y: scroll;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 80%;
+	margin: 0px auto 0px auto;
+	color: #333;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+	
+
+/* fomt */
+.red {
+	color: #bb1f13;
+}
+
+.grey {
+	color: #666;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.line {
+	text-decoration: underline;
+}
+
+.font_s {
+	font-size: small;
+	line-height: 1.5em;
+}
+
+.font_ss {
+	font-size: x-small;
+	line-height: 1.5em;
+	color: #666;
+}
+
+.font_l {
+	font-size: large;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.align_right {
+	margin: 10px 0px 20px 0px;
+	text-align: right;
+	clear: both;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.font_right_name {
+	margin: 20px 15px 0px 440px;
+	padding: 0px;
+}
+
+.font_right_name_greeting {
+	margin: 20px 0px 0px 280px;
+	padding: 0px;
+}
+
+/* img */
+img {
+	border: 0px;
+}
+
+.img_line {
+	border: 1px #666 solid!important;
+	padding: 5px;
+}
+
+/* link */
+.linkmark_maru {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+}
+
+.i_list_mark {
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	background-image: url(../img/common/i_list_sankaku_blue.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-weight: bold;
+}
+
+
+
+/* margin */
+.space_h5 {		margin: 5px;	clear: both;	overflow: hidden;}
+.space_h10 {	margin: 10px;	clear: both;	overflow: hidden;}
+.space_h20 {	margin: 20px;	clear: both;	overflow: hidden;}
+.space_h30 {	margin: 30px;	clear: both;	overflow: hidden;}
+.space_h40 {	margin: 40px;	clear: both;	overflow: hidden;}
+.space_h80 {	margin: 80px;	clear: both;	overflow: hidden;}
+
+.space_top5 {	margin: 5px 0px 0px 0px;	clear: both;	overflow: hidden;}
+.space_left40 {	margin: 5px 0px 0px 40px;	clear: both;	overflow: hidden;}
+
+.clear {
+	clear: both;
+}
+
+
+/*
+	▼header▼
+--------------------------------------------------------------------------------------*/
+/* header IN */
+#in_allheader {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	height: 121px;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	background-image: url(../img/common/bac_header.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+/* header common */
+#in_header {
+	width: 980px;
+	height: 65px;
+	clear: both;
+	text-align: left;
+	margin: 10px auto 0px auto;
+	overflow: visible;
+	position: relative;
+}
+
+#header_logo {
+	margin: 0px; 
+	padding: 0px;
+	width: 450px;
+	float: left;
+}
+
+#header_search {
+	margin: 0px;
+	padding: 0px;
+	width: 330px;
+	text-align: right;
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+
+#header_inmenu {
+	margin: 0px;
+	padding: 0px;
+	width: 330px;
+	text-align: right;
+	float: right;
+/*	background-image: url(../img/common/header_fukuilogo_e.jpg);
+	background-repeat: no-repeat;
+	background-position: left top; */
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+
+
+
+
+/* menu */
+#header_mainmenu {
+	width: 980px;
+	height: 45px;
+	clear: both;
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	background-image: url(../img/common/header_mainmenu_down.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#header_mainmenu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header_mainmenu li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	display: block;
+}
+
+
+#header_mainmenu em {
+	display: none;
+}
+
+li.indexnavi a,li.companynavi a,li.marketnavi a,li.productnavi a,li.makingnavi a,li.contactnavi a {
+	position: absolute;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	float: left;
+}
+
+li.indexnavi a {	width: 120px;	position: absolute;	left: 0px; top: 0px;}
+li.companynavi a {	width: 160px;	position: absolute; left: 120px; top: 0px; }
+li.marketnavi a {	width: 154px;	position: absolute;	left: 280px; top: 0px;}
+li.productnavi a {	width: 214px;	position: absolute; left: 434px; top: 0px; }
+li.makingnavi a {	width: 192px;	position: absolute; left: 648px; top: 0px;}
+li.contactnavi a {	width: 140px;	position: absolute; left: 840px; top: 0px; }
+
+
+
+li.indexnavi a:hover{
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+li.companynavi a:hover{
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -120px top;
+}
+
+li.marketnavi a:hover{
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -280px top;
+}
+
+li.productnavi a:hover{
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -434px top;
+}
+
+li.makingnavi a:hover{;
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -648px top;
+}
+
+li.contactnavi a:hover{
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -840px top;
+}
+
+
+
+/* ページID */
+#p_index li.indexnavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+#p_company li.companynavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -120px top;
+}
+
+#p_market li.marketnavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -280px top;
+}
+
+#p_product li.productnavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -434px top;
+}
+
+#p_marking li.makingnavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -648px top;
+}
+
+#p_contact li.contactnavi a {
+	background-image: url(../img/common/header_mainmenu_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -840px top;
+}
+
+
+/*
+	▼maon common▼
+--------------------------------------------------------------------------------------*/
+/* main content */
+#main_container {
+	width: 980px;
+	clear: both;
+	margin: 10px auto 40px auto;
+	padding: 0px;
+	overflow: hidden;
+}
+
+/* link */
+#main_container a:link {	color: #1674e0;	text-decoration: none;}
+#main_container a:hover {	color: #e04343;	text-decoration: underline!important;}
+#main_container a:visited {	color: #0e4c93;	text-decoration: none;}
+
+
+/* sub menu */
+#sb_menu {
+	width: 240px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+	border: 3px #2366b2 solid;
+	background-color: #ffffff;
+	clear: both;
+	overflow: auto;
+}
+
+#sb_menu dl {
+	width: 240px;
+	margin:0px 0px 10px 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+	border-bottom: 1px #2366b2 solid;
+}
+
+#sb_menu dt {
+	width: 240px;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+	border-bottom: 2px #2366b2 solid;
+}
+
+#sb_menu dd {
+	width: 205px;
+	margin: 0px;
+	padding: 12px 0px 12px 35px;
+	float: left;
+	text-align: left;
+	border-bottom: 1px #2366b2 solid;
+	background-image: url(../img/common/i_list_sankaku_blue.gif);
+	background-repeat: no-repeat;
+	background-position: 20px 1.2em;
+	line-height: 1.2em;
+}
+
+#sb_menu ul {
+	width: 200px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	text-align: left;
+	list-style-type: none;
+}
+
+#sb_menu li {
+	margin: 0px;
+	padding: 0px 0px 0px 1em;
+	text-align: left;
+	border-bottom: 1px #2366b2 dotted;
+}
+
+/* link */
+.hover {
+	background-color: #e5f1ff!important;
+	color: #0F8C8C;
+}
+
+
+#main_honbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+/* about print */
+#in_allheader_print {
+	margin: 0px auto 0px auto;
+	padding: 0px;
+	height: 120px;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	background-image: url(../img/common/bac_header.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+#main_honbun_print {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* link */
+#main_container a:link {	color: #1674e0;	text-decoration: none;}
+#main_container a:hover {	color: #e04343;	text-decoration: underline!important;}
+#main_container a:visited {	color: #1674e0;	text-decoration: none!important;}
+
+/* Heading */
+h1 em {
+	display: none;
+}
+
+h2 em {
+	display: none;
+}
+
+.h2_honbun {
+	margin: 0px 0px 30px 9px;
+	padding: 0px;
+	clear: both;
+	text-align: left;
+}
+
+.h2_honbun p {
+	margin: 0px 0px 1em 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+h3 em {
+	display: none;
+}
+
+.h3_honbun {
+	margin: 0px 0px 30px 9px;
+	padding: 0px;
+	clear: both;
+}
+
+.h3_honbun p {
+	margin: 0px;
+	padding: 0px 0px 1em 20px;
+}
+
+h4 {
+	margin: 0px 0px 10px 10px;
+	padding: 3px 0px 3px 20px;
+	color: #2366b2;
+	font-size: 130%;
+	background-image: url(../../english/img/common/i_list_kakomisankaku_blue.gif);
+	background-repeat: no-repeat;
+	background-position: left topx;	
+	text-align: left;
+
+}
+
+.h4_honbun {
+	margin: 0px 0px 30px 9px;
+	padding: 0px;
+	clear: both;
+}
+
+.h4_honbun p {
+	margin: 0px;
+	padding: 0px 0px 1em 1.7em;
+}
+
+/* pagepan */
+#pagepan {
+	margin: 0px 0px 10px 0px;
+	padding: 0px;
+	text-align: left;
+	font-size: 85%;
+	color: #666;
+}
+
+
+/*
+	▼footer▼
+--------------------------------------------------------------------------------------*/
+/* footer border*/
+#allfooter {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	overflow: hidden;
+	font-size: 75%;
+	line-height: 1.5em;
+	background-image: url(../img/common/bac_footer.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-color: #000000;
+}
+
+
+
+/* footer inside */
+#footer_navi {
+	margin: 1px auto 0px auto;
+	padding: 0px;
+	width: 980px;
+	height: 37px;
+	text-align: left;
+	clear: both;
+	overflow: hidden;
+}
+
+
+/* footer address */
+
+#footer_in {
+	width: 980px;
+	height: 50px;
+	text-align: left;
+	clear: both;
+	margin: 0px auto 0px auto;
+	padding: 10px 0px 0px 0px;
+}
+
+#footer_address {
+	width: 580px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	text-align: left;
+}
+
+/* footer copylight */
+#footer_copy {
+	width: 400px;
+	margin: 2em 0px 0em 0px;
+	padding: 0px;
+	float: right;
+	text-align: right;
+}
+
+
+/*
+	▼YAHOOsearch▼
+-------------------------------------------*/
+
+#srchBox{
+    width:330px;
+    _width:328px;
+    margin:0px;
+    color:#000000;
+    text-align:right;
+}
+
+#srchBox *{
+    margin:0;
+    padding:0;
+    font-size:13px;
+    *font-size:small;
+    *font:x-small;
+}
+
+#srchBox a img{
+    border:none;
+}
+
+#srchBox #srch{
+	margin: 0px;
+    padding: 0px;
+}
+
+#srchBox #srch #srchForm{
+    white-space:nowrap;
+	margin: 0px;
+	padding: 0px;
+}
+
+#srchBox #srchInput{
+    width:200px;
+    margin: 0px 10px 0px 0px;
+	padding: 0px;
+    vertical-align:top;
+}
+
+#srchBox #srchBtn{
+    width: 52px;
+	height: 22px;
+}
+
+*html #srchBox #srchBtn{  padding-top:2px;
+}
+
+*:first-child+html #srchBox #srchBtn{  padding-top:2px;
+}
+
+#srchBox ul{
+    margin: 0px;
+	padding: 0px;
+    text-align:left;
+}
+
+#srchBox li{
+    list-style-type:none;
+    display:inline;
+    zoom:1;
+    padding-right:10px;
+}
+
+#srchBox li input{
+    zoom:1;
+    margin-right:2px;
+    _margin:-4px 0 -4px -4px;
+	padding: 0px;
+    vertical-align:middle;
+    border:0;
+}
+
+*:+html #srchBox li input{  margin:-4px 0 -4px -4px; padding: 0px;
+}
+
+#srchBox #srchLogo{
+    margin:6px 6px 6px 0;
+	padding: 0px;
+    text-align:right;
+}
+
+#srchBox #srchLogo a{
+    color:#666666;
+    text-decoration:none;
+    font-size:85%;
+}
+
+#srchBox #srchLogo a:hover{
+    text-decoration:underline;
+}
+
+#srchBox.watermark{
+    padding-bottom: 6px;
+}
+
+#srchBox.watermark #srchInput{
+    padding:1px 1px 2px 1px;
+    border:1px solid #7e9db9;
+}
+
+#srchBox.watermark #srchInput.nomark{
+    background: #fff;
+}
+
+#srchBox.watermark #srchLogo{
+    display: none;
+}
+
+
+
+
+@media print { 
+body{	
+	overflow: visible;
+	width: 980px;
+	/zoom: 60%;
+}
+
+html>/**/body #main_container {
+	display:table;
+}
+
+html>/**/body #sb_menu {
+	display:table-cell;
+	float:none;
+	border: none;
+}
+
+html>/**/body #sb_menu dt {
+	border-bottom: 2px #2366b2 solid;
+	border-left: 2px #2366b2 solid;
+	border-right: 2px #2366b2 solid;
+}
+
+html>/**/body #sb_menu dd {
+	border-bottom: 1px #2366b2 solid;
+	border-left: 2px #2366b2 solid;
+	border-right: 2px #2366b2 solid;
+}
+
+html>/**/body #main_honbun {
+	display:table-cell;
+	float:none;
+}
+
+}

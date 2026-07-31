@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+	▼IN contact▼
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_contact {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_contact h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/contact/title_h1_contact.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#main_contacthonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_contacthonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/contact/title_h2_contact.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#contact_table table {
+	width: 700px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+}
+
+#contact_table th {
+	background-color: #f1f1f1;
+	vertical-align: top;
+	border-bottom: 1px #ddd solid;
+	border-right: 1px #ddd solid;
+	border-left: 3px #2366b2 solid;
+	padding: 5px 10px 5px 10px;
+	background-image: url(../img/common/i_list_kakomimaru_blue.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 11px;
+	margin: 0px;
+	padding: 10px 10px 10px 30px;
+}
+
+#contact_table td {
+	padding: 5px 10px 5px 10px;
+	border-bottom: 1px #ddd solid;
+	vertical-align: top;
+}
+
+.th_normal {
+	background-color: #fff!important;
+	border-left: none!important;
+	border-right: none!important;
+	text-align: left;
+}

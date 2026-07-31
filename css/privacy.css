@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+	▼Privacy Policy▼
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_privacy {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_privacy h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/privacy/title_h1_privacy.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#main_privacyhonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_privacyhonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/privacy/title_h2_privacy.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}

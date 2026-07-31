@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+	▼product▼
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_product {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_product h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/product/title_h1_product.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#main_productvalvehonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_productvalvehonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/product/title_h2_product_valve.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+#productvalv_table table {
+	width: 700px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+}
+
+#productvalv_table th {
+	vertical-align: top;
+	color: #2366b2;
+	padding: 3px 10px 3px 10px;
+	text-align: center;
+}
+
+#productvalv_table td {
+	padding: 5px 5px 5px 5px;
+	vertical-align: top;
+}
+
+#productvalv_table ol {
+	margin: 0px 0px 0px 1.5em;
+	padding: 0px;
+}
+
+#productvalv_table .come {
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+	background-color: #eee;
+}
+
+
+
+
+#main_productcataloghonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_productcataloghonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/product/title_h2_product_catalog.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+
+
+#productcatalog_table table {
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+}
+
+#productcatalog_table th {
+	background-color: #2366b2;
+	vertical-align: top;
+	color: #fff;
+	padding: 3px 10px 3px 10px;
+	text-align: left;
+}
+
+#productcatalog_table td {
+	padding: 5px 10px 5px 10px;
+	vertical-align: top;
+}
+
+.td_glay {
+	background-color: #eee!important;
+	vertical-align: bottom!important;
+	text-align: center!important;
+	padding: 5px 3px 5px 3px!important;
+	font-size: 85%;
+}
+
+.td_normal {
+	vertical-align: bottom!important;
+}
+
+.td_blue {
+	background-color: #e5f1ff;
+	text-align: center;
+	vertical-align: top;
+	padding-top: 10px;
+}
+
+.td_blue img {
+	margin-bottom: 5px;
+}
+
+#productcatalog_list {
+	margin: 0px;
+	padding: 5px 0px 20px 120px;
+	clear: both;
+	border-top: 1px #ddd solid;
+	border-bottom: 1px #ddd solid;
+}
+
+#productcatalog_list ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#productcatalog_list li {
+	margin: 0px 40px 0px 0px;
+	padding: 0px 0px 0px 15px;
+	float: left;
+	background-image: url(../img/common/i_list_sankaku_blue.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+
+
+
+#main_productservicehonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_productservicehonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/product/title_h2_product_service.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+#ervice_waku {
+	width: 700px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	overflow: hidden;
+}
+
+#service_waku_gene {
+	width: 350px;
+	margin: 0px;
+	padidng: 0px;
+	float: left;
+}
+
+#service_waku_marine {
+	width: 350px;
+	margin: 0px;
+	padidng: 0px;
+	float: right;
+}
+
+
+
+#productservice_table table {
+	width: 350px;
+	margin: 0px 0px 30px 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border: 1px #2366b2 solid;
+}
+
+#productservice_table th {
+	background-color: #666;
+	vertical-align: top;
+	color: #fff;
+	padding: 3px 10px 3px 10px;
+	text-align: center;
+	border: 1px #2366b2 solid;
+}
+
+#productservice_table td {
+	padding: 5px 10px 5px 10px;
+	border: 1px #2366b2 solid;
+	border-collapse: collapse;
+}
+
+.td_gene_deve {
+	background-color: #FCC;
+}
+
+.td_gene_marine {
+	background-color: #CFF;
+}
+
+
+#main_productattestationhonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_productattestationhonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/product/title_h2_product_attestation.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+#roductattestation_table {
+	margin: 0px;
+	padding: 0px;
+}
+
+#roductattestation_table td img {
+	border: 1px #ddd solid;
+	padding: 3px;
+}
+
+#roductattestation_table ul {
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+	margin: 0px 1em 0px 1em;
+	font-size: 85%;
+}
+
+#roductattestation_table li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	border-bottom: 1px #2366b2 dotted;
+}
+
+

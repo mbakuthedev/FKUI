@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*
+	▼FUKUI marking▼
+--------------------------------------------------------------------------------------*/
+
+
+#header_in_marking {
+	width: 980px;
+	height: 110px;
+	margin: 5px auto 0px auto;
+	padding: 0px;
+	clear: both;
+}
+
+
+#header_in_marking h1 {
+	width: 980px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/marking/title_h1_marking.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+
+
+#main_markinghonbun {
+	width: 710px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	text-align: left;
+}
+
+
+#main_markinghonbun h2 {
+	width: 710px;
+	height: 48px;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
+	text-align: left;
+	background-image: url(../img/marking/title_h2_marking.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	clear: both;
+}
+
+.marking_imgwaku {
+	margin: 30px 0px 0px 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+
+p.image {
+	display: none;
+	height: 0px;
+}
+
+dl#marking_map{
+	margin: 0;
+	padding: 0;
+	width: 670px;
+	height: 490px;
+	position: relative;
+	background-image: url(../img/marking/img_making_flow.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+dt#marking_map {
+	margin: 0px;
+    padding: 0px;
+	position: absolute;
+	font-size: 85%;
+	display: none;
+}
+
+dd#marking_map {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	font-size: 85%;
+}
+	
+
+
+.map01 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 45px;
+	left: 6px;
+}
+
+.map01 a:hover{
+	position: absolute;
+	top: 45px;
+	left: 6px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -6px -45px;
+	width: 250px;
+	height: 30px;
+}
+
+
+.map03 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 148px;
+	left: 6px;
+}
+
+.map03 a:hover{
+	position: absolute;
+	top: 148px;
+	left: 6px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -6px -148px;
+	width: 250px;
+	height: 30px;
+}
+
+
+
+.map04 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 175px;
+	left: 296px;
+}
+
+.map04 a:hover{
+	position: absolute;
+	top: 175px;
+	left: 296px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -296px -175px;
+	width: 250px;
+	height: 30px;
+}
+
+
+
+.map06 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 227px;
+	left: 296px;
+}
+
+.map06 a:hover{
+	position: absolute;
+	top: 227px;
+	left: 296px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -296px -227px;
+	width: 250px;
+	height: 30px;
+}
+
+
+.map08 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 301px;
+	left: 6px;
+}
+
+.map08 a:hover{
+	position: absolute;
+	top: 301px;
+	left: 6px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -6px -301px;
+	width: 250px;
+	height: 30px;
+}
+
+
+
+.map09 a{
+	position: absolute;
+	width: 250px;
+	height: 30px;
+	text-decoration: none;
+	top: 327px;
+	left: 296px;
+}
+
+.map09 a:hover{
+	position: absolute;
+	top: 327px;
+	left: 296px;
+	background-image: url(../img/marking/img_making_flow_over.jpg);
+	background-repeat: no-repeat;
+	background-position: -296px -327px;
+	width: 250px;
+	height: 30px;
+}
